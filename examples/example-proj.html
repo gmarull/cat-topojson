@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.land {
+  fill: #ddc;
+  stroke: white;
+}
+
+</style>
+
+<body>
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+
+<script>
+
+var width  = 500,
+    height = 500;
+
+/* No need to project! */
+var path = d3.geo.path()
+      .projection(null);
+
+var svg = d3.select("body").append("svg")
+  .attr("width", width)
+  .attr("height", height);
+
+d3.json("topo/cat-comarques.json", function(error, cat) {
+  if (error) throw error;
+
+  svg.append("path")
+    .datum(topojson.feature(cat, cat.objects.comarques))
+    .attr("d", path)
+    .attr("class", "land")
+});
+
+</script>
