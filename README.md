@@ -1,24 +1,35 @@
 # Utility to generate TopoJSON maps for Catalonia
 
 This repository provides a utility to generate
-[TopoJSON](//github.com/mbostock/topojson) maps for Catalonia using the source
-maps provided by [ICGC](//www.icc.cat/vissir3).
+[TopoJSON](https://github.com/mbostock/topojson) maps for Catalonia using the
+source maps provided by [ICGC](//www.icc.cat/vissir3).
 
-You may find this [article](//teslabs.com/articles/topojson-catalonia) useful to
-better understand what this utility does.
+You may find this [article](http://teslabs.com/articles/topojson-catalonia)
+useful to better understand what this utility does.
+
+<table>
+<tr height="180">
+<td>provincies<br><a href="https://cloud.githubusercontent.com/assets/11430385/11307750/f1ca3b1e-8f6e-11e5-9da6-a3d608213063.png"><img src="https://cloud.githubusercontent.com/assets/11430385/11307750/f1ca3b1e-8f6e-11e5-9da6-a3d608213063.png"></a></td>
+<td>comarques<br><a href="https://cloud.githubusercontent.com/assets/11430385/11307744/ed041eb0-8f6e-11e5-9da9-9b18e511971f.png"><img src="https://cloud.githubusercontent.com/assets/11430385/11307744/ed041eb0-8f6e-11e5-9da9-9b18e511971f.png"></a></td>
+<td>municipis<br><a href="https://cloud.githubusercontent.com/assets/11430385/11307753/f4e45ca8-8f6e-11e5-874d-d7b54c699696.png"><img src="https://cloud.githubusercontent.com/assets/11430385/11307753/f4e45ca8-8f6e-11e5-874d-d7b54c699696.png"></a></td>
+</tr>
+</table>
+
+**NOTE:** Source maps are produced by ICGC and are subject to [terms of
+use](//www.icc.cat/conditions).
 
 ## Preliminary requirements
 
 Before you can use this utility, you will need to obtain the source maps. They
-are freely available from [ICGC](//www.icc.cat/vissir3) (registration is
+are freely available from [ICGC](http://www.icc.cat/vissir3) (registration is
 required). The maps of interest are called *Base Municipal* and are offered in
 multiple scales (1:50, 1:250 and 1:1000) and formats (DXF, DGN and SHP). This
 utility only supports SHP format.
 
 Regarding software, the first requirement is the TopoJSON host tool,
-``topojson``, which in turn requires [Node.js](//nodejs.org/en/). If you are on
-OS X, and assuming you use [brew](//brew.sh/), you can easily get both by
-typing:
+``topojson``, which in turn requires [Node.js](http://nodejs.org/en/). If you
+are on OS X, and assuming you use [brew](http://brew.sh/), you can easily get
+both by typing:
 
     $ brew install node
     $ npm install -g topojson
