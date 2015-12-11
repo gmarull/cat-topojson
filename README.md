@@ -2,7 +2,7 @@
 
 This repository provides a utility to generate
 [TopoJSON](https://github.com/mbostock/topojson) maps for Catalonia using the
-source maps provided by [ICGC](//www.icc.cat/vissir3).
+source maps provided by [ICGC](//www.icc.cat/vissir3) (*Base municipal*).
 
 You may find this [article](http://teslabs.com/articles/topojson-catalonia)
 useful to better understand what this utility does.
@@ -19,12 +19,6 @@ useful to better understand what this utility does.
 use](//www.icc.cat/conditions).
 
 ## Preliminary requirements
-
-Before you can use this utility, you will need to obtain the source maps. They
-are freely available from [ICGC](http://www.icc.cat/vissir3) (registration is
-required). The maps of interest are called *Base Municipal* and are offered in
-multiple scales (1:50, 1:250 and 1:1000) and formats (DXF, DGN and SHP). This
-utility only supports SHP format.
 
 Regarding software, the first requirement is the TopoJSON host tool,
 ``topojson``, which in turn requires [Node.js](http://nodejs.org/en/). If you
@@ -45,8 +39,7 @@ To get started, clone this repository:
 
     git clone https://github.com/teslabs/cat-topojson
 
-Then, copy the downloaded source maps file (.zip) to the root of the cloned
-repository. Once done, you can generate the maps by simply typing:
+Once done, you can generate the maps by simply typing:
 
     make
 
@@ -59,8 +52,8 @@ The following maps are generated in the `topo/` directory:
 * `cat.json`: Combination of all of the above
 
 Using the default parameters will generate projected maps (see all available
-parameters and their defaults below). You can open any of the examples to verify
-the generated maps.
+parameters and their defaults below) using the *Base municipal* in 1:50 scale.
+You can open any of the examples to verify the generated maps.
 
 ## Parameters
 
@@ -100,7 +93,8 @@ ICGC maps file names are in the format
 * `xx` identifies the map (e.g. `mp` is for municipalities polygons)
 
 A couple of parameters can be set to change the maps used: `SCALE` (default to
-50) and `DATE` (default to 20150501).
+50) and `DATE` (default to 20150501). Source maps are found inside the `sources`
+folder and are subject to terms of use (see `LICENSE` in `sources`).
 
 ## Examples
 

@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- MetaD Ver. 4.0.2 Infraestructura de Dades Espacials de Catalunya (IDEC)-->
+<!-- Date: 02/06/2015 Time: 09:00:00-->
+<?xml-stylesheet type='text/xsl' href='ISO19139.xsl'?>
+<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gmd="http://www.isotc211.org/2005/gmd" xsi:schemaLocation="http://www.isotc211.org/2005/gco http://idec.icc.cat/schema//gco/gco.xsd http://www.isotc211.org/2005/gmd http://idec.icc.cat/schema//gmd/gmd.xsd" xmlns:srv="http://www.isotc211.org/2005/srv" id="ID0001">
+   <fileIdentifier>
+      <gco:CharacterString>bm50mv33sh1fc1_20150501_0_ca6</gco:CharacterString>
+   </fileIdentifier>
+
+   <language>
+      <gco:CharacterString>cat</gco:CharacterString>
+   </language>
+
+   <characterSet>
+      <MD_CharacterSetCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="8859part1" />
+   </characterSet>
+
+   <hierarchyLevel>
+      <MD_ScopeCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="dataset" />
+   </hierarchyLevel>
+
+   <contact>
+      <CI_ResponsibleParty>
+         <organisationName>
+            <gco:CharacterString>Institut Cartogràfic i Geològic de Catalunya (ICGC)</gco:CharacterString>
+         </organisationName>
+
+         <contactInfo>
+            <CI_Contact>
+               <phone>
+                  <CI_Telephone>
+                     <voice>
+                        <gco:CharacterString>+34 93 567 15 00</gco:CharacterString>
+                     </voice>
+                  </CI_Telephone>
+               </phone>
+
+               <address>
+                  <CI_Address>
+                     <deliveryPoint>
+                        <gco:CharacterString>Parc de Montjuïc</gco:CharacterString>
+                     </deliveryPoint>
+
+                     <city>
+                        <gco:CharacterString>Barcelona</gco:CharacterString>
+                     </city>
+
+                     <postalCode>
+                        <gco:CharacterString>E-08038</gco:CharacterString>
+                     </postalCode>
+
+                     <electronicMailAddress>
+                        <gco:CharacterString>icgc@icgc.cat</gco:CharacterString>
+                     </electronicMailAddress>
+                  </CI_Address>
+               </address>
+
+               <onlineResource>
+                  <CI_OnlineResource>
+                     <linkage>
+                        <URL>http://www.icgc.cat</URL>
+                     </linkage>
+
+                     <function>
+                        <CI_OnLineFunctionCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="information" />
+                     </function>
+                  </CI_OnlineResource>
+               </onlineResource>
+            </CI_Contact>
+         </contactInfo>
+
+         <role>
+            <CI_RoleCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="pointOfContact" />
+         </role>
+      </CI_ResponsibleParty>
+   </contact>
+
+   <dateStamp>
+      <gco:Date>2015-06-02</gco:Date>
+   </dateStamp>
+
+   <metadataStandardName>
+      <gco:CharacterString>ISO 19115:2003/Cor.1:2006 Geographic Information - Metadata</gco:CharacterString>
+   </metadataStandardName>
+
+   <metadataStandardVersion>
+      <gco:CharacterString>IS</gco:CharacterString>
+   </metadataStandardVersion>
+
+   <spatialRepresentationInfo>
+      <MD_VectorSpatialRepresentation>
+         <topologyLevel>
+            <MD_TopologyLevelCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="fullPlanarGraph" />
+         </topologyLevel>
+
+         <geometricObjects>
+            <MD_GeometricObjects>
+               <geometricObjectType>
+                  <MD_GeometricObjectTypeCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="curve" />
+               </geometricObjectType>
+            </MD_GeometricObjects>
+         </geometricObjects>
+
+         <geometricObjects>
+            <MD_GeometricObjects>
+               <geometricObjectType>
+                  <MD_GeometricObjectTypeCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="point" />
+               </geometricObjectType>
+            </MD_GeometricObjects>
+         </geometricObjects>
+
+         <geometricObjects>
+            <MD_GeometricObjects>
+               <geometricObjectType>
+                  <MD_GeometricObjectTypeCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="surface" />
+               </geometricObjectType>
+            </MD_GeometricObjects>
+         </geometricObjects>
+      </MD_VectorSpatialRepresentation>
+   </spatialRepresentationInfo>
+
+   <referenceSystemInfo>
+      <MD_ReferenceSystem id="ID0002">
+         <referenceSystemIdentifier>
+            <RS_Identifier>
+               <code>
+                  <gco:CharacterString>EPSG:25831 - ETRS89 / UTM zone 31N</gco:CharacterString>
+               </code>
+            </RS_Identifier>
+         </referenceSystemIdentifier>
+      </MD_ReferenceSystem>
+   </referenceSystemInfo>
+
+   <identificationInfo>
+      <MD_DataIdentification id="ID0003">
+         <citation>
+            <CI_Citation>
+               <title>
+                  <gco:CharacterString>Base municipal de Catalunya 1:50 000 (BM-50M) v3.3</gco:CharacterString>
+               </title>
+
+               <alternateTitle>
+                  <gco:CharacterString>BM-50M</gco:CharacterString>
+               </alternateTitle>
+
+               <date>
+                  <CI_Date>
+                     <date>
+                        <gco:Date>2015-06-05</gco:Date>
+                     </date>
+
+                     <dateType>
+                        <CI_DateTypeCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="publication" />
+                     </dateType>
+                  </CI_Date>
+               </date>
+
+               <edition>
+                  <gco:CharacterString>20150501</gco:CharacterString>
+               </edition>
+
+               <identifier>
+                  <MD_Identifier>
+                     <code>
+                        <gco:CharacterString>bm50mv33fcc_20150501</gco:CharacterString>
+                     </code>
+                  </MD_Identifier>
+               </identifier>
+
+               <presentationForm>
+                  <CI_PresentationFormCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="mapDigital" />
+               </presentationForm>
+
+               <otherCitationDetails>
+                  <gco:CharacterString>El document d'especificacions de la base en aquest format s'anomena "Especificacions per al format 'ESRI Shapefile' (SHP) - Base municipal de Catalunya 1:50 000 (BM-50M) v3.3 - Base municipal de Catalunya 1:250 000 (BM-250M) v3.3 - Base municipal de Catalunya 1:1 000 000 (BM-1000M) v3.3" i es pot descarregar del Web de l'ICGC (http://www.icgc.cat).</gco:CharacterString>
+               </otherCitationDetails>
+            </CI_Citation>
+         </citation>
+
+         <abstract>
+            <gco:CharacterString>Base geogràfica de l'organització territorial de Catalunya en municipis, comarques i províncies.</gco:CharacterString>
+         </abstract>
+
+         <purpose>
+            <gco:CharacterString>Base geogràfica necessària per al desenvolupament d'activitats tècniques, de gestió i de planificació en el territori.</gco:CharacterString>
+         </purpose>
+
+         <status>
+            <MD_ProgressCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="completed" />
+         </status>
+
+         <pointOfContact>
+            <CI_ResponsibleParty>
+               <organisationName>
+                  <gco:CharacterString>Institut Cartogràfic i Geològic de Catalunya (ICGC)</gco:CharacterString>
+               </organisationName>
+
+               <contactInfo>
+                  <CI_Contact>
+                     <phone>
+                        <CI_Telephone>
+                           <voice>
+                              <gco:CharacterString>+34 93 567 15 00</gco:CharacterString>
+                           </voice>
+                        </CI_Telephone>
+                     </phone>
+
+                     <address>
+                        <CI_Address>
+                           <deliveryPoint>
+                              <gco:CharacterString>Parc de Montjuïc</gco:CharacterString>
+                           </deliveryPoint>
+
+                           <city>
+                              <gco:CharacterString>Barcelona</gco:CharacterString>
+                           </city>
+
+                           <postalCode>
+                              <gco:CharacterString>E-08038</gco:CharacterString>
+                           </postalCode>
+
+                           <electronicMailAddress>
+                              <gco:CharacterString>icgc@icgc.cat</gco:CharacterString>
+                           </electronicMailAddress>
+                        </CI_Address>
+                     </address>
+
+                     <onlineResource>
+                        <CI_OnlineResource>
+                           <linkage>
+                              <URL>http://www.icgc.cat</URL>
+                           </linkage>
+
+                           <function>
+                              <CI_OnLineFunctionCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="information" />
+                           </function>
+                        </CI_OnlineResource>
+                     </onlineResource>
+                  </CI_Contact>
+               </contactInfo>
+
+               <role>
+                  <CI_RoleCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="owner" />
+               </role>
+            </CI_ResponsibleParty>
+         </pointOfContact>
+
+         <descriptiveKeywords>
+            <MD_Keywords>
+               <keyword>
+                  <gco:CharacterString>Moianès</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Segarra</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Baix Llobregat</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Solsonès</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Val d'Aran</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Barcelonès</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Urgell</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Pla d'Urgell</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Terra Alta</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Alt Empordà</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Selva, La</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Alt Penedès</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Europa</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Espanya</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Catalunya</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Vallès Oriental</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Vallès Occidental</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Ribera d'Ebre</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Segrià</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Priorat</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Ripollès</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Tarragonès</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Conca de Barberà</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Pallars Sobirà</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Pallars Jussà</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Osona</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Noguera</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Montsià</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Maresme</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Gironès</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Garrotxa</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Garrigues</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Alt Camp</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Garraf</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Berguedà</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Pla de l'Estany</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Baix Penedès</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Cerdanya</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Baix Empordà</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Baix Ebre</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Baix Camp</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Bages</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Anoia</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Alta Ribagorça</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Alt Urgell</gco:CharacterString>
+               </keyword>
+
+               <type>
+                  <MD_KeywordTypeCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="place" />
+               </type>
+            </MD_Keywords>
+         </descriptiveKeywords>
+
+         <descriptiveKeywords>
+            <MD_Keywords>
+               <keyword>
+                  <gco:CharacterString>2015</gco:CharacterString>
+               </keyword>
+
+               <type>
+                  <MD_KeywordTypeCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="temporal" />
+               </type>
+            </MD_Keywords>
+         </descriptiveKeywords>
+
+         <descriptiveKeywords>
+            <MD_Keywords>
+               <keyword>
+                  <gco:CharacterString>Estat</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Límit administratiu</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Municipi</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Comarca</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Comunitat autònoma</gco:CharacterString>
+               </keyword>
+
+               <keyword>
+                  <gco:CharacterString>Província</gco:CharacterString>
+               </keyword>
+
+               <type>
+                  <MD_KeywordTypeCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="theme" />
+               </type>
+            </MD_Keywords>
+         </descriptiveKeywords>
+
+         <descriptiveKeywords>
+            <MD_Keywords>
+               <keyword>
+                  <gco:CharacterString>Unitats administratives</gco:CharacterString>
+               </keyword>
+
+               <type>
+                  <MD_KeywordTypeCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="theme" />
+               </type>
+
+               <thesaurusName>
+                  <CI_Citation>
+                     <title>
+                        <gco:CharacterString>GEMET - INSPIRE temes, versió 1.0</gco:CharacterString>
+                     </title>
+
+                     <date>
+                        <CI_Date>
+                           <date>
+                              <gco:Date>2008-06-01</gco:Date>
+                           </date>
+
+                           <dateType>
+                              <CI_DateTypeCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="publication" />
+                           </dateType>
+                        </CI_Date>
+                     </date>
+                  </CI_Citation>
+               </thesaurusName>
+            </MD_Keywords>
+         </descriptiveKeywords>
+
+         <resourceConstraints>
+            <MD_LegalConstraints id="ID0004">
+               <useLimitation>
+                  <gco:CharacterString>Les dades produïdes per l'ICGC estan subjectes a les condicions d'ús especificades al web de l'ICGC (http://www.icgc.cat/condicions).</gco:CharacterString>
+               </useLimitation>
+
+               <accessConstraints>
+                  <MD_RestrictionCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="copyright" />
+               </accessConstraints>
+
+               <accessConstraints>
+                  <MD_RestrictionCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="intellectualPropertyRights" />
+               </accessConstraints>
+
+               <useConstraints>
+                  <MD_RestrictionCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="license" />
+               </useConstraints>
+
+               <useConstraints>
+                  <MD_RestrictionCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="intellectualPropertyRights" />
+               </useConstraints>
+
+               <useConstraints>
+                  <MD_RestrictionCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="otherRestictions" />
+               </useConstraints>
+
+               <otherConstraints>
+                  <gco:CharacterString>Les dades produïdes per l'ICGC estan subjectes a les condicions d'ús especificades al web de l'ICGC (http://www.icgc.cat/condicions).</gco:CharacterString>
+               </otherConstraints>
+            </MD_LegalConstraints>
+         </resourceConstraints>
+
+         <spatialRepresentationType>
+            <MD_SpatialRepresentationTypeCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="vector" />
+         </spatialRepresentationType>
+
+         <spatialResolution>
+            <MD_Resolution>
+               <equivalentScale>
+                  <MD_RepresentativeFraction>
+                     <denominator>
+                        <gco:Integer>50000</gco:Integer>
+                     </denominator>
+                  </MD_RepresentativeFraction>
+               </equivalentScale>
+            </MD_Resolution>
+         </spatialResolution>
+
+         <language>
+            <gco:CharacterString>cat</gco:CharacterString>
+         </language>
+
+         <characterSet>
+            <MD_CharacterSetCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="8859part1" />
+         </characterSet>
+
+         <topicCategory>
+            <MD_TopicCategoryCode>boundaries</MD_TopicCategoryCode>
+         </topicCategory>
+
+         <extent>
+            <EX_Extent>
+               <description>
+                  <gco:CharacterString>Catalunya</gco:CharacterString>
+               </description>
+
+               <geographicElement>
+                  <EX_GeographicBoundingBox>
+                     <westBoundLongitude>
+                        <gco:Decimal>0.147384</gco:Decimal>
+                     </westBoundLongitude>
+
+                     <eastBoundLongitude>
+                        <gco:Decimal>3.344571</gco:Decimal>
+                     </eastBoundLongitude>
+
+                     <southBoundLatitude>
+                        <gco:Decimal>40.513877</gco:Decimal>
+                     </southBoundLatitude>
+
+                     <northBoundLatitude>
+                        <gco:Decimal>42.870501</gco:Decimal>
+                     </northBoundLatitude>
+                  </EX_GeographicBoundingBox>
+               </geographicElement>
+
+               <temporalElement>
+                  <EX_TemporalExtent>
+                     <extent>
+                        <gml:TimePeriod gml:id="id001">
+                           <gml:begin>
+                              <gml:TimeInstant gml:id="id002">
+                                 <gml:timePosition>2015-05-01</gml:timePosition>
+                              </gml:TimeInstant>
+                           </gml:begin>
+
+                           <gml:end>
+                              <gml:TimeInstant gml:id="id003">
+                                 <gml:timePosition>2015-05-01</gml:timePosition>
+                              </gml:TimeInstant>
+                           </gml:end>
+                        </gml:TimePeriod>
+                     </extent>
+                  </EX_TemporalExtent>
+               </temporalElement>
+            </EX_Extent>
+         </extent>
+
+         <supplementalInformation>
+            <gco:CharacterString>La Base municipal de Catalunya està disponible també en altres escales (1:250 000 i 1:1 000 000) i formats. Per a més informació es pot consultar el web de l'ICGC.</gco:CharacterString>
+         </supplementalInformation>
+      </MD_DataIdentification>
+   </identificationInfo>
+
+   <distributionInfo>
+      <MD_Distribution>
+         <distributionFormat>
+            <MD_Format>
+               <name>
+                  <gco:CharacterString>SHP</gco:CharacterString>
+               </name>
+
+               <version>
+                  <gco:CharacterString>-</gco:CharacterString>
+               </version>
+            </MD_Format>
+         </distributionFormat>
+
+         <distributor>
+            <MD_Distributor>
+               <distributorContact>
+                  <CI_ResponsibleParty>
+                     <organisationName>
+                        <gco:CharacterString>Institut Cartogràfic i Geològic de Catalunya (ICGC)</gco:CharacterString>
+                     </organisationName>
+
+                     <contactInfo>
+                        <CI_Contact>
+                           <phone>
+                              <CI_Telephone>
+                                 <voice>
+                                    <gco:CharacterString>+34 93 567 15 00</gco:CharacterString>
+                                 </voice>
+                              </CI_Telephone>
+                           </phone>
+
+                           <address>
+                              <CI_Address>
+                                 <deliveryPoint>
+                                    <gco:CharacterString>Parc de Montjuïc</gco:CharacterString>
+                                 </deliveryPoint>
+
+                                 <city>
+                                    <gco:CharacterString>Barcelona</gco:CharacterString>
+                                 </city>
+
+                                 <postalCode>
+                                    <gco:CharacterString>E-08038</gco:CharacterString>
+                                 </postalCode>
+
+                                 <electronicMailAddress>
+                                    <gco:CharacterString>icgc@icgc.cat</gco:CharacterString>
+                                 </electronicMailAddress>
+                              </CI_Address>
+                           </address>
+
+                           <onlineResource>
+                              <CI_OnlineResource>
+                                 <linkage>
+                                    <URL>http://www.icgc.cat</URL>
+                                 </linkage>
+
+                                 <function>
+                                    <CI_OnLineFunctionCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="information" />
+                                 </function>
+                              </CI_OnlineResource>
+                           </onlineResource>
+                        </CI_Contact>
+                     </contactInfo>
+
+                     <role>
+                        <CI_RoleCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="distributor" />
+                     </role>
+                  </CI_ResponsibleParty>
+               </distributorContact>
+
+               <distributionOrderProcess>
+                  <MD_StandardOrderProcess>
+                     <fees>
+                        <gco:CharacterString>Informació digital gratuïta; còpia en suport físic segons tarifes vigents.</gco:CharacterString>
+                     </fees>
+
+                     <orderingInstructions>
+                        <gco:CharacterString>El producte es pot obtenir per via telemàtica, tal i com s'indica a l'apartat "Opcions de transferència" d'aquestes metadades, i als centres d'atenció al públic especificats al Web de l'ICGC.</gco:CharacterString>
+                     </orderingInstructions>
+                  </MD_StandardOrderProcess>
+               </distributionOrderProcess>
+
+               <distributorTransferOptions>
+                  <MD_DigitalTransferOptions>
+                     <unitsOfDistribution>
+                        <gco:CharacterString>Conjunt de dades complet</gco:CharacterString>
+                     </unitsOfDistribution>
+
+                     <onLine>
+                        <CI_OnlineResource>
+                           <linkage>
+                              <URL>http://www.icgc.cat/descarrega</URL>
+                           </linkage>
+
+                           <name>
+                              <gco:CharacterString>Catàleg i descàrrega</gco:CharacterString>
+                           </name>
+
+                           <description>
+                              <gco:CharacterString>Descàrrega de dades vigents mitjançant recerca directa sobre un fons cartogràfic continu on es pot triar el lloc, el producte i el format.</gco:CharacterString>
+                           </description>
+
+                           <function>
+                              <CI_OnLineFunctionCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="download" />
+                           </function>
+                        </CI_OnlineResource>
+                     </onLine>
+                  </MD_DigitalTransferOptions>
+               </distributorTransferOptions>
+            </MD_Distributor>
+         </distributor>
+      </MD_Distribution>
+   </distributionInfo>
+
+   <dataQualityInfo>
+      <DQ_DataQuality>
+         <scope>
+            <DQ_Scope>
+               <level>
+                  <MD_ScopeCode codeList="http://idec.icc.cat/schema/Codelist/ML_gmxCodelists.xml" codeListValue="dataset" />
+               </level>
+            </DQ_Scope>
+         </scope>
+
+         <lineage>
+            <LI_Lineage>
+               <statement>
+                  <gco:CharacterString>La delimitació municipal primària fou la resultant de l'anàlisi, feta a l'Institut Cartogràfic de Catalunya (actualment Institut Cartogràfic i Geològic de Catalunya), de la documentació (actes, quaderns i cartografia a escala 1:25 000) dels expedients de delimitació municipal dipositats a l'Instituto Geográfico Nacional. S'ha considerat, també, les posteriors alteracions territorials publicades al DOGC i de les quals n'existeix acta de delimitació. La georeferenciació d'aquesta delimitació es recolza en la cartografia topogràfica 1:50 000 de l'Institut Cartogràfic i Geològic de Catalunya, podent-se per tant haver modificat línies de la delimitació degut a canvis en la cartografia de referència. La divisió comarcal és l'aprovada per la Generalitat de Catalunya. La representació de la seva delimitació és un subconjunt de la municipal. La denominació oficial de les comarques, dels municipis i dels caps de municipi és l'establerta al Nomenclàtor oficial de toponímia major de Catalunya i posteriors modificacions. La codificació de municipis, comarques i províncies és l'aprovada per la Generalitat de Catalunya. La georeferenciació dels caps de municipi es realitza a partir del Nomenclàtor i d'altres fonts existents. Els caps de comarca són un subconjunt dels de municipi. Les dades de superfície municipal es determinen automàticament a partir de la delimitació inclosa a la Base municipal 1:50 000 de l'Institut Cartogràfic i Geològic de Catalunya, llevat d'aquells municipis que tenen el seu Mapa municipal 1:5 000 aprovat per la Comissió de Delimitació Territorial de Catalunya, per als quals la dada de superfície municipal prové directament d'aquest mapa. La superfície de les comarques i províncies es determina per la suma de les superfícies dels municipis que les conformen. Aquesta nova revisió (edició) de la base incorpora les modificacions aprovades fins a la data de referència, llevat de les derivades d'aprovació de Mapa municipal dins el 2015.</gco:CharacterString>
+               </statement>
+
+               <source>
+                  <LI_Source>
+                     <description>
+                        <gco:CharacterString>De la delimitació municipal primària: Instituto Geográfico Nacional, actes, quaderns i cartografia a escala 1:25 000 dels expedients de delimitació municipal; de les alteracions territorials posteriors: Generalitat de Catalunya, DOGC; del recolzament de la delimitació: cartografia topogràfica de l'escala de referència; de la divisió comarcal: Generalitat de Catalunya, Llei 22/1987 de 16 de desembre (DOGC núm. 929, 18-12-87), Llei 5/1988 de 28 de març (DOGC núm. 992, 16-5-88), Llei 3/1990 de 8 de gener (DOGC núm. 1243, 17-1-90) i Llei 4/2015 de 23 d'abril (DOGC núm. 6862, 30-4-2015); de la denominació oficial de les comarques, dels municipis i dels caps de municipi: Generalitat de Catalunya, Nomenclàtor oficial de toponímia major de Catalunya de l'any 2003 i posteriors modificacions; de la codificació de municipis, comarques i províncies: Generalitat de Catalunya, Ordre de 25 de febrer de 1993 (DOGC núm. 1734, 19-4-93) i posteriors modificacions publicades al DOGC. La data límit de publicació de les modificacions de delimitació, denominació i codificació que han estat considerades és: 2015-05-01 (llevat de les modificacions de delimitació derivades d'aprovació de Mapa municipal, que tenen data límit: 2015-01-01).</gco:CharacterString>
+                     </description>
+                  </LI_Source>
+               </source>
+            </LI_Lineage>
+         </lineage>
+      </DQ_DataQuality>
+   </dataQualityInfo>
+</MD_Metadata>
+

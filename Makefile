@@ -18,25 +18,21 @@ endif
 SCALE = 50
 DATE = 20150501
 
-F_DIR        = $(if $(GEO),geo,raw)
-F_ALL        = bm$(SCALE)mv33sh1fc1_$(DATE)_0.zip
-F_CAPS       = $(F_DIR)/bm$(SCALE)mv33sh1fcm1_$(DATE)_0.shp
-F_MUNICIPIS  = $(F_DIR)/bm$(SCALE)mv33sh1fpm1_$(DATE)_0.shp
-F_COMARQUES  = $(F_DIR)/bm$(SCALE)mv33sh1fpc1_$(DATE)_0.shp
-F_PROVINCIES = $(F_DIR)/bm$(SCALE)mv33sh1fpp1_$(DATE)_0.shp
+F_SOURCES    = sources/bm/$(SCALE)/$(DATE)/
+F_INPUT      = $(if $(GEO),geo,$(F_SOURCES))
+F_CAPS       = $(F_INPUT)/bm$(SCALE)mv33sh1fcm1_$(DATE)_0.shp
+F_MUNICIPIS  = $(F_INPUT)/bm$(SCALE)mv33sh1fpm1_$(DATE)_0.shp
+F_COMARQUES  = $(F_INPUT)/bm$(SCALE)mv33sh1fpc1_$(DATE)_0.shp
+F_PROVINCIES = $(F_INPUT)/bm$(SCALE)mv33sh1fpp1_$(DATE)_0.shp
 
 .PHONY: all clean
 
 all: topo/cat.json
 
 clean:
-	rm -rf topo raw geo
+	rm -rf topo geo
 
-raw/%.shp:
-	mkdir -p $(dir $@)
-	tar -xf $(F_ALL) -C $(dir $@);
-
-geo/%.shp: raw/%.shp
+geo/%.shp: $(F_SOURCES)/%.shp
 	mkdir -p $(dir $@)
 	ogr2ogr \
 		-f 'ESRI Shapefile' \
